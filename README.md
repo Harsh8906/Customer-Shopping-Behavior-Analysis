@@ -107,39 +107,23 @@ An interactive Power BI dashboard was developed to analyze customer purchasing b
 
 ---
 
-## Project Structure
+## Project Files
 
-```text
-Customer-Shopping-Behavior-Analysis/
-│
-├── data/
-│   ├── customer_shopping_behavior.csv
-│   └── Clean_Customer_Shopping.csv
-│
-├── notebooks/
-│   └── CUSTOMER_SHOPPING_BEHAVIOUR_ANALYSIS.ipynb
-│
-├── sql/
-│   └── customer_analysis.sql
-│
-├── dashboard/
-│   ├── CUSTOMER_BEHAVIOUR_DASHBOARD.pbix
-│   └── dashboard.png
-│
-├── README.md
-├── requirements.txt
-└── .gitignore
-```
+This repository contains:
+
+- Original customer shopping dataset
+- Cleaned customer shopping dataset
+- Jupyter Notebook for data cleaning and analysis
+- SQL file containing MySQL queries
+- Power BI dashboard (`.pbix` file)
+- Dashboard screenshot
+- `requirements.txt` file containing Python dependencies
 
 ---
 
 ## How to Run the Project
 
-1. Clone the repository:
-
-```bash
-git clone <repository-url>
-```
+1. Download or clone this repository.
 
 2. Install the required Python libraries:
 
@@ -147,23 +131,19 @@ git clone <repository-url>
 pip install -r requirements.txt
 ```
 
-3. Open the Jupyter Notebook in the `notebooks` folder.
+3. Open the Jupyter Notebook to review the data cleaning and analysis process.
 
 4. Update the MySQL connection details with your own local database credentials.
 
-5. Run the SQL queries from the `sql` folder.
+5. Run the SQL queries using MySQL.
 
-6. Open the Power BI `.pbix` file to explore the dashboard.
+6. Open the Power BI `.pbix` file using Power BI Desktop to explore the interactive dashboard.
 
 ---
 
 ## Dashboard Preview
 
-Add the dashboard screenshot below after uploading `dashboard.png` to the repository:
-
-```markdown
-![Customer Shopping Behavior Dashboard](dashboard/dashboard.png)
-```
+The repository includes a screenshot of the interactive Power BI dashboard.
 
 ---
 
